@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keme Rex - Portfolio</title>
+    <title>Keme Rex</title>
     <style>
 
 
@@ -196,6 +196,10 @@ nav ul li a.active {
 }
 
 @media (max-width: 768px) {
+    h2{
+        font-size: 1.5rem !important;
+    }
+    
     .hamburger {
         display: block;
        
@@ -209,7 +213,7 @@ nav ul li a.active {
     }
 
     nav ul li {
-        text-align: left;
+        text-align: centerleft
     }
 
     nav ul li a {
@@ -223,6 +227,14 @@ nav ul li a.active {
         flex-direction: column;
     }
 }
+.footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        clear: both;
+   background-color: black;
+    color: white;
+    } 
     </style>
 
 </head>
@@ -233,11 +245,10 @@ nav ul li a.active {
         <div class="hamburger" onclick="toggleMenu()">☰</div>
 <nav>
     <ul id="nav-menu">
-        <ul id="nav-menu">
-        <li><a href="https://keme21.github.io/kemedesigns/">Home</a></li>
-        <li><a href="RESUME.pdf">Resume</a></li>
-        <li><a href="https://www.linkedin.com/in/keme-rex-19929a179/">Connect</a></li>
-        <li><a href="https://keme21.github.io/kemedesigns5/">About</a></li>
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="https://www.linkedin.com/in/keme-rex-19929a179/">Contact</a></li>
+        <li><a href="about.html">About</a></li>
     </ul>
 </nav>
     </header>
@@ -258,14 +269,14 @@ nav ul li a.active {
                 <div class="card-container">
                     <!-- Card 1 -->
                     <div class="card">
-                        <a href="https://keme21.github.io/kemedesigns2/">
+                        <a href="portfolio2.html">
                         <img src="uiappdesign.png" alt="Offline Activities">
                         <div class="card-title">App Design</div>
                         </a>
                     </div>
                     <!-- Card 2 -->
                     <div class="card">
-                        <a href="https://keme21.github.io/kemedesigns3/">
+                        <a href="portfolio3.html">
                         <img src="homesecurity.png" alt="Offline Activities">
                         <div class="card-title">Home Security System</div>
                         </a>
@@ -280,7 +291,7 @@ nav ul li a.active {
                 <div class="card-container">
                     <!-- Card 1 -->
                     <div class="card">
-                        <a href="https://keme21.github.io/kemedesigns4/">
+                        <a href="portfolio4.html">
                         <img src="CEHC1.png" alt="Daily Challenges">
                         <div class="card-title">Internship Uniform Design</div>
                         </a>
@@ -306,7 +317,8 @@ nav ul li a.active {
         }
     </script>
     
-    
+    <div class="footer">
+        © 2024 Keme Rex. All rights reserved.
+    </div>
 </body>
 </html>
-
